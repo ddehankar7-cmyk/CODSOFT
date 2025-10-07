@@ -1,0 +1,124 @@
+
+
+.main{
+  width: 750px;
+  background-color:white;
+  background-position:center;
+  background-size: cover;
+  height: 100%;
+  position: relative;
+ font-family: 'Times New Roman', Times, serif;
+}
+.navbar{
+  width: 86%;
+  height: 30%;
+  display: flex;
+  margin: auto;
+  padding: 15px 0;
+  text-align:center;
+justify-content: space-between;
+}
+
+.navbar .logo{
+  width: 160px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left:1px;
+  margin-right: 10px;
+  
+
+}
+
+ul{
+   margin-top: -4%;
+}
+ul li{
+list-style: none;
+display: inline-block;
+padding: 10px 16px;
+}
+
+ul li a{
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color:greenyellow;
+  margin-top: -3%;
+  transition: .4s ease;
+}
+
+ul li a :hover{
+  color:red;
+}
+
+.info{
+  margin: 7%;
+  margin-top: 1%;
+}
+
+.info h1{
+  font-size: 40px;
+  color: rgb(7, 0, 0);
+}
+
+.info h3{
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 2px;
+  
+}
+.info span{
+  color: red;
+}
+
+.info a{
+  text-decoration: none;
+  color: aliceblue;
+  background: rgb(37, 4, 4);
+  margin: 10px 0;
+  padding: 100px 180px;
+  border-radius: 100px;
+  display: inline-block;
+  transition: .4s ease;
+}
+.info a:hover{
+  background: green;
+}
+.logo{
+  border: 2000px;
+  
+}
+section{
+  margin: 20px 20px;
+  
+}
+
+body{
+  font-family: 'Segoe UI',sans-serif;
+  margin: 10px 30px;
+  padding: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 30px;
+}
+h2 {
+  color: #000406;
+  border-bottom: 2px solid #011726;
+  padding-bottom: 50px;
+  padding-top: 90x;
+  border-radius:1px;
+}
+ul li{
+  padding: 5px 0;
+}
+h2 {
+  color: #007acc;
+  border-bottom: 2px solid #007acc;
+  padding-bottom: 5px;
+}
+body{
+  border: 5px double black;
+  width: 100%;
+}
